@@ -1,0 +1,39 @@
+.mainPage {
+    background-color: #F4F9E2;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.mainPage nav  {
+    display: flex;
+    justify-content: space-between;
+}
+.mainPage nav ul  {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.mainPage nav ul li  {
+    margin-right: 10px;
+}
+.mainBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.blockFour{
+    display: flex;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      height: 100px;
+}
+.blockStyle{
+    height: 400px;
+    width: 250px;
+    display: flex;
+
+
+}
