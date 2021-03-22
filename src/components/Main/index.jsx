@@ -7,6 +7,8 @@ import {CardTwoo} from '../cardTwo'
 import photo from  '../../images/chris.png'
 import mainPhoto from '../../images/linkedin.png'
 import mainCharles from '../../images/charles.png'
+import mainAutumn from '..//../images/autumn.png'
+import {BlockTen} from '../BlockTen'
 
 
 export const MainPage = () => {
@@ -74,6 +76,18 @@ export const MainPage = () => {
         },
             ]
             let cardRen2 = cardtext2.map(e => <CardTwoo theme={e.theme} text={e.text}/>)
+
+
+
+            const seven = [
+                {z: 'SOME INFO',t: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.'},
+                {z: 'ENFOLD HEALTH',t: 'Main Street 1, Olcott Buffalo, United States +555 283 784 333  office@enfold-health.com'},
+                {z: 'OFFICE HOURS',t: 'Mo-Fr: 8:00-19:00 Sa: 8:00-14:00 Su: closed'},
+                
+            ]
+
+            let tenBlock = seven.map(e => <BlockTen z={e.z} t={e.t}/>)
+
     
 
     return <div className={css.mainPage}>
@@ -169,15 +183,21 @@ export const MainPage = () => {
             {cardRen2}
         </div>
 
+
+
         <div className={css.block_Five}>
             <div>
                 <img src={mainPhoto} alt=""/>
             </div>
-            <h2 className={css.youshould}>YOU SHOULD ALSO KNOW</h2> <br/>
+            
             <div className={css.blockIn}>
-            MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age 18 and older in a given year. We at ThriveTalk can help you.    
+            <p className={css.youshould}>YOU SHOULD ALSO KNOW</p>
+
+            <span  className={css.mmd}  >MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age 18 and older in a given year. We at ThriveTalk can help you.    
+            </span>
+            <p>GET HELP NOW</p>
             </div>
-            {/* <p>GET HELP NOW</p> */}
+ 
         </div>
 
         <div  className={css.blokc_six}>
@@ -190,6 +210,16 @@ export const MainPage = () => {
                 <img className={css.mainChar} src={mainCharles} alt=""/>
             </div>
         </div>
+
+        <div  className={css.block_seven}>
+            <img  src={mainAutumn} alt=""/>
+        <div className={css.three_blocks}>
+
+            {tenBlock}
+        </div>
+
+        </div>
+        <div className={css.footer}> Copyright - ThriveTalk  2017</div>
         
 
 
