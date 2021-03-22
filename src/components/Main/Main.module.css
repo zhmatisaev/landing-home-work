@@ -5,6 +5,8 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+
 .mainPage nav  {
     display: flex;
     justify-content: space-between;
@@ -20,9 +22,74 @@
 .mainBlock{
     display: flex;
     justify-content: space-between;
+
 }
+
+.mainBlock p {
+    font-size: 24px;
+    margin-top: 100px;
+}
+
+.zagolovok{
+    font-family: Larsseit;
+font-size: 48px;
+line-height: 53px;
+letter-spacing: -0.035em;
+
+color: #22356F;
+}
+.desc{
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 42px;
+    
+    color: #22356F; 
+}
+.btn{
+    /* position: absolute; */
+width: 150px;
+height: 50px;
+left: 179px;
+/* top: 715px; */
+
+background: #F9B640;
+}
+.what{
+    font-family: Larsseit;
+font-size: 16px;
+line-height: 23px;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.1em;
+margin-left: 30px;
+color: #FAB63E;
+}
+.secondBlock{
+        display: flex;
+        text-align: left;
+        /* align-items: center; */
+       
+
+    }
+
+    .photoChriss{
+        height: 400px;
+    }
+
+    .someText{
+        
+         width: 800px;
+        height: 400px;
+        background: #62D0DF;
+        font-family: Larsseit;
+        font-size: 24px;
+        line-height: 35px;
+        /* padding: 50px 0 20px 0 ; */
+
+    }
 .blockFour{
     display: flex;
+    margin-bottom: 80px;
 }
 .text{
     display: flex;
@@ -31,9 +98,94 @@
       height: 100px;
 }
 .blockStyle{
-    height: 400px;
-    width: 250px;
     display: flex;
 
 
 }
+
+.contentText{
+    display: flex;
+    /* font-size: 25px; */
+    margin-top: 80px;
+}
+.about{
+    margin-left: 100px;
+    margin-top: 60px;
+    
+font-family: Larsseit;
+font-size: 16px;
+line-height: 23px;
+letter-spacing: 0.06em;
+
+color: #22356F;
+}
+.twoText{
+    width: 500px;
+    margin-left: 150px;
+    align-items: center;
+    text-align: center;
+    font-family: Larsseit;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0.005em;
+
+color: #22356F;
+}
+.descript{
+    display: flex;
+    margin: 50px;
+    /* width: 600px; */
+
+
+ }
+
+ .block_Five{
+     display: flex;
+ }
+ .block_Five h2 {
+     margin-left: 150px;
+     width: 60px;
+ }
+ .blockIn{
+     margin-top: 400px;
+     font-family: Larsseit;
+font-size: 36px;
+line-height: 53px;
+letter-spacing: -0.01em;
+
+color: #22356F;
+ }
+
+ .blokc_six{
+     display: flex;
+     background: #22356F;
+     height: 700px;
+     
+ }
+ .Ready{
+    font-family: Larsseit;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    margin-top: 200px;
+    color: #FFFFFF;
+    text-align: center;
+ }
+ .Take{
+    font-family: Larsseit;
+font-size: 36px;
+line-height: 53px;
+letter-spacing: -0.005em;
+text-align: center;
+margin-top: 50px;
+color: #FFFFFF;
+ }
+ .mainChar{
+     height: 700px;
+ }
+ .blokc_six p {
+     margin-left: 150px;
+     margin-top: 150px;
+color: #FFFFFF;
+
+ }
